@@ -1,0 +1,18 @@
+基于Qt的简单音乐播放器
+Qt模块：core、multimedia、gui、widget
+Qt类：
+QPixmap、QHBoxLayout、QVBoxLayout、
+QGridLayout、QFileDialog、QPushButton、
+QLabel、QListWidget、QSlider、
+QMediaPlayer、QAudioOutput
+信号：
+QMediaPlayer::durationChanged
+QMediaPlayer::positionChanged
+QSlider::sliderMoved
+QMediaPlayer::mediaStatusChanged
+QPushButton::clicked
+QListWidget::doubleClicked
+特殊
+QFileDialog::getExistingDirectory
+dir.entryInfoList(QStringList() << "*.mp3" << "*.wav")
+
